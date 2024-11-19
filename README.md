@@ -47,8 +47,14 @@ A dataset pertaining to moons that can be used to train the machine-learning mod
 
 ## Conclusions
 
-TBD...
 
 - How does the k-means model seperation support compare to the hierarchical agglomerative clustering (HAC) model?
+  
+    A k-means clustering model generated two separate clusters. However, these clusters do not seem to provide a clear distinction between the crescents, as they merely divide the entire feature space into two equal parts instead of effectively isolating the crescents.
+
+    In contrast, a hierarchical agglomerative clustering (HAC) model was utilized to form two distinct clusters. This method appears to significantly improve the differentiation between the crescents, thereby enhancing the clarity of the separation among the identified groups.
+  
 - What is the cutoff and the optimal number of clusters for the HAC model?
 
+    - According to the dendrogram, 3 clusters are optimal.
+    - The 3-cluster model shows minimal differences when compared to the 2-cluster model.
