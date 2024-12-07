@@ -19,7 +19,7 @@ This project will scope, analyze, prepare, plot data, and seek to explain the fi
   
 Here are a couple of questions that this project seeks to answer:
 
-- How does the k-means model seperation support compare to the hierarchical agglomerative clustering (HAC) model?
+- How does the k-means model separation support compare to the hierarchical agglomerative clustering (HAC) model?
 - What is the termination point indicated by the cutoff line?
 - What is the optimal number of clusters for the HAC model?
 
@@ -48,7 +48,7 @@ A dataset pertaining to moons that can be used to train the machine-learning mod
 ## Conclusions
 
 
-- How does the k-means model seperation support compare to the hierarchical agglomerative clustering (HAC) model?
+- How does the k-means model separation support compare to the hierarchical agglomerative clustering (HAC) model?
   
     A k-means clustering model generated two separate clusters. However, these clusters do not seem to provide a clear distinction between the crescents, as they merely divide the entire feature space into two equal parts instead of effectively isolating the crescents.
 
